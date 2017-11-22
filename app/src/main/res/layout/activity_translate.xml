@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/translate"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="请输入翻译内容"
+        android:id="@+id/id_EditText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="翻译"
+        android:textSize="25sp"
+        android:id="@+id/id_transButton"
+        android:layout_below="@+id/id_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:textSize="20sp"
+        android:id="@+id/id_TextView"
+        android:layout_below="@+id/id_transButton"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btn_addtoword"
+        android:text="添加到单词本"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
